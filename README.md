@@ -12,6 +12,12 @@ A modern, responsive web application for ChefKart built using **React** and **Ta
 
 ---
 
+## 🔗 Related Repositories
+
+- **Backend Repository**: [ChefKartBackend](https://github.com/shikharmahajan08-maker/ChefKartBackend)
+
+---
+
 ## 🛠️ Built With
 
 - **React 18**

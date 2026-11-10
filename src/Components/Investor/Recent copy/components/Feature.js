@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { BASE_URL } from "../../../../config";
 
 const Investors = () => {
   const [investors, setInvestors] = useState([]);
@@ -10,7 +11,7 @@ const Investors = () => {
   useEffect(() => {
     setIsLoading(true);
     axios
-      .get("http://localhost:8000/investor/getinvestor")
+      .get(`${BASE_URL}/investor/getinvestor`)
       .then((res) => {
         setInvestors(res.data);
         setIsLoading(false);

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { BASE_URL } from "../../config";
 
 const TabSwitchComponent = () => {
   const [activeTab, setActiveTab] = useState("For Singles");
@@ -8,7 +9,7 @@ const TabSwitchComponent = () => {
   useEffect(() => {
     const fetchHomeData = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/home/getall");
+        const response = await axios.get(`${BASE_URL}/home/getall`);
         setData(response.data);
       } catch (error) {
         console.error("Error fetching home content:", error);

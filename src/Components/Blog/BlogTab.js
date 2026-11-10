@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { BASE_URL } from "../../config";
 
 const TabSwitch = () => {
   const [data, setData] = useState([]);
@@ -14,7 +15,7 @@ const TabSwitch = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/blog/getAll");
+        const response = await axios.get(`${BASE_URL}/blog/getAll`);
         const blogData = response.data;
         setData(blogData);
         if (blogData.length > 0) {
@@ -33,7 +34,7 @@ const TabSwitch = () => {
   const fetchBlogDetails = async (id) => {
     setModalLoading(true);
     try {
-      const response = await axios.get(`http://localhost:8000/blog/get/${id}`);
+      const response = await axios.get(`${BASE_URL}/blog/get/${id}`);
       setSelectedBlog(response.data);
       setModalOpen(true);
     } catch (err) {

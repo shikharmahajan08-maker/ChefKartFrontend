@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { BASE_URL } from '../../config';
 
 const Cater = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:8000/join/get')
+    axios.get(`${BASE_URL}/join/get`)
       .then((res) => setData(res.data))
       .catch((err) => console.error('Error fetching data:', err));
   }, []);

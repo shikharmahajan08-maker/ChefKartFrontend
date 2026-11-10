@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import axios from "axios";
+import { BASE_URL } from "../../config";
 
 const GalleryWithState = () => {
   const [isZoomed, setIsZoomed] = useState(false);
@@ -11,7 +12,7 @@ const GalleryWithState = () => {
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/foodGall/getall");
+        const response = await axios.get(`${BASE_URL}/foodGall/getall`);
         setImages(response.data); // Store API image data
       } catch (error) {
         console.error("Failed to fetch gallery images:", error);

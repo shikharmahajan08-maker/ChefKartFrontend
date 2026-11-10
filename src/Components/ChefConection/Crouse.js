@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
+import { BASE_URL } from "../../config";
 
 const Carousel = () => {
   const [slides, setSlides] = useState([]);
@@ -10,7 +11,7 @@ const Carousel = () => {
   useEffect(() => {
     const fetchSlides = async () => {
       try {
-        const res = await axios.get("http://localhost:8000/crousel/get");
+        const res = await axios.get(`${BASE_URL}/crousel/get`);
         const formattedSlides = res.data.map((item) => ({
           title: item.title || "",
           description: item.content || "",

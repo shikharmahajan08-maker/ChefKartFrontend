@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Formik, Form, Field, FieldArray, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import { BASE_URL } from "../../config";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -64,7 +65,7 @@ const ChefFormFormik = () => {
 
       setLoading(true);
       console.log("Submitting values:", values); // Debug log
-      await axios.post("http://localhost:8000/chef/create", values);
+      await axios.post(`${BASE_URL}/chef/create`, values);
       toast.success("Chef has registered successfully!");
       resetForm();
     } catch (error) {

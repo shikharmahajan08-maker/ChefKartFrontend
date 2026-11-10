@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { BASE_URL } from "../config";
 const ChefDirectory = () => {
   //handle the api calls and data fetching for the chef directory
   //useState to manage the state of chefs and search filters
@@ -20,7 +21,7 @@ const ChefDirectory = () => {
   useEffect(() => {
     const fetchChefs = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/chef/get");
+        const response = await axios.get(`${BASE_URL}/chef/get`);
         if (response.data && response.data.data) {
 
           setChefs(response.data.data);

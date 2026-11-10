@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import axios from "axios";
+import { BASE_URL } from "../../config";
 
 const GalleryAutoSlideZoom = () => {
   const [images, setImages] = useState([]);
@@ -12,7 +13,7 @@ const GalleryAutoSlideZoom = () => {
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/food/getall");
+        const response = await axios.get(`${BASE_URL}/food/getall`);
         setImages(response.data || []);
       } catch (error) {
         console.error("Error fetching food images:", error);

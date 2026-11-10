@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import axios from "axios";
+import { BASE_URL } from "../../config";
 
 const Testimonial1 = () => {
   const [testimonialsData, setTestimonialsData] = useState([]);
@@ -8,7 +9,7 @@ const Testimonial1 = () => {
   useEffect(() => {
     const fetchTestimonials = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/testimonial/get");
+        const response = await axios.get(`${BASE_URL}/testimonial/get`);
         if (response.data && response.data.data) {
           setTestimonialsData(response.data.data);
         }

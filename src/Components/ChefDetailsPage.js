@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import { BASE_URL } from "../config";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { MdAccessTime } from "react-icons/md";
 
@@ -11,7 +12,7 @@ const ChefDetails = () => {
   useEffect(() => {
     const fetchChef = async () => {
       try {
-        const res = await axios.get(`http://localhost:8000/chef/get`);
+        const res = await axios.get(`${BASE_URL}/chef/get`);
         const found = res.data.data.find((c) => c._id === id);
         setChef(found);
       } catch (err) {

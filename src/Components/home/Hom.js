@@ -1,5 +1,4 @@
 import FoodBanner1 from "./Banner";
-import BlogSection from "./BlogSection";
 import GalleryAutoSlideZoom from "./Gal";
 import GalleryWithState from "./Galle";
 import SkillIndiaSection from "./Section";

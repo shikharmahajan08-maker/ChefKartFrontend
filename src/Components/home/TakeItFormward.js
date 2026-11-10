@@ -25,7 +25,7 @@ const TakeItForward = () => {
           <div className="flex justify-center lg:justify-start gap-4">
             {/* App Store Button */}
             <a
-              href="#"
+              href="#app-store"
               className="bg-black text-white py-3 px-6 rounded-lg flex items-center shadow-md hover:bg-gray-800"
             >
               <img
@@ -38,7 +38,7 @@ const TakeItForward = () => {
 
             {/* Google Play Button */}
             <a
-              href="#"
+              href="#google-play"
               className="bg-black text-white py-3 px-6 rounded-lg flex items-center shadow-md hover:bg-gray-800"
             >
               <img

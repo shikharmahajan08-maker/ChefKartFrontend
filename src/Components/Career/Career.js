@@ -1,14 +1,6 @@
 import React from "react";
 
 const Carousel4= () => {
-  const slides = [
-    {
-      title: "What People Think About Us",
-      bgImage:
-        "https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FChefit_Hero_banner_f573fdf12c.webp&w=1920&q=75",
-    },
-  ];
-
   return (
     <div className="relative bg-[#fff9f2] w-full h-screen">
       {/* Slide */}

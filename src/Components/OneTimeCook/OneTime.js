@@ -1,6 +1,5 @@
 import React from 'react'
 import FaqOne from './FaqOnetime'
-import Lower2 from './Lower2'
 import Lower3 from './Lower3'
 import Testimonials from './Testimon'
 import Heart from './Heart1'

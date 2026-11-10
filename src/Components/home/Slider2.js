@@ -1,16 +1,6 @@
 import React from "react";
 
 const Carousel2 = () => {
-  const slides = [
-    {
-      title: "Trusted By 10K+ Households To Hire a Cook ",
-      description: "Most Trusted Platform for At-Home Cooking Services  .",
-      bgImage: "https://awgprivatechefs.com/wp-content/uploads/2021/05/nsplsh_b86635b484d2489d8e1d23806a8409de-mv2.jpg",
-    },
-    
-  ];
-
-
   return (
     <div className="relative w-full h-screen">
       {/* Slide */}

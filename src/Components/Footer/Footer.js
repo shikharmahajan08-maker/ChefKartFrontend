@@ -1,22 +1,43 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { FaApple, FaGooglePlay } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div>
-        <footer class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-      <Link to="#" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <img src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FLogo_black_9e78b44631.webp&w=1920&q=75" alt="ChefKart Logo" />
-        
-      </Link>
-      <p class="mt-2 text-black font-bold  text-center ">Get The App Now</p>
-   <div className="flex flex-row space-x-7 mt-5">
-    <img src="https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/app_store_e12d7f52d9.svg" alt="app"/>
-    <img src="https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/google_play_bb87168764.svg" alt="app"/>   
-   </div>
-
-    </div>
+      <footer className="text-gray-600 body-font bg-white border-t border-gray-100">
+        <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+          <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+            <Link to="/" className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoErvIxAIWybuxDrbVZuRTz1B3ZaYWZTSqMw&s"
+                alt="ChefKart Logo"
+                className="w-44 h-auto rounded"
+              />
+            </Link>
+            <p className="mt-4 text-black font-bold text-center md:text-left">Get The App Now</p>
+            <div className="flex flex-col sm:flex-row gap-2 mt-4 justify-center md:justify-start">
+              <a
+                href="#"
+                className="flex items-center space-x-2 bg-black text-white px-3 py-2 rounded-lg hover:bg-gray-800 transition-colors shadow-sm"
+              >
+                <FaApple className="text-2xl" />
+                <div className="text-left leading-tight">
+                  <div className="text-[9px] uppercase tracking-wider text-gray-300">Download on the</div>
+                  <div className="text-xs font-semibold">App Store</div>
+                </div>
+              </a>
+              <a
+                href="#"
+                className="flex items-center space-x-2 bg-black text-white px-3 py-2 rounded-lg hover:bg-gray-800 transition-colors shadow-sm"
+              >
+                <FaGooglePlay className="text-xl" />
+                <div className="text-left leading-tight">
+                  <div className="text-[9px] uppercase tracking-wider text-gray-300">GET IT ON</div>
+                  <div className="text-xs font-semibold">Google Play</div>
+                </div>
+              </a>
+            </div>
+          </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-bold  text-gray-900 tracking-widest text-md mb-3">CATEGORIES</h2>

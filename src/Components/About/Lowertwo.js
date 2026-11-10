@@ -19,9 +19,9 @@ const Lower4 = () => {
           {/* Image Section */}
           <div className="lg:max-w-lg md:w-1/2 w-full">
             <img
-              className="object-cover object-center rounded w-full h-auto"
-              alt="hero"
-              src="https://thechefkart.com/_next/image?url=%2FiStock-1223383996%201.png&w=1920&q=75"
+              className="object-cover object-center rounded-2xl shadow-lg w-full h-auto"
+              alt="Our Mission"
+              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80"
             />
           </div>
         </div>

@@ -8,35 +8,36 @@ const BlogSection = () => {
         <h2 className="text-center font-bold text-5xl">Cuisines worth travelling, now at your fingertips</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 mt-12 gap-6">
           {/* Blog Card 1 */}
-          <div className="relative bg-black rounded-lg overflow-hidden shadow-lg">
+          <div className="relative bg-black rounded-lg overflow-hidden shadow-lg h-96">
             <img
-              src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FBlog_ZO_02_c103cf5073.webp&w=1920&q=75"
-              alt="Blog 1"
-              className="w-full h-full object-cover opacity-70"
+              src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1200&q=80"
+              alt="Hiring a cook"
+              className="w-full h-full object-cover opacity-60"
             />
-            <div className="absolute inset-0 flex flex-col mt-36  p-6">
-              <span className="bg-orange-500 text-white text-xs uppercase font-bold px-3 py-1 mb-2">
+            <div className="absolute inset-0 flex flex-col justify-end p-6">
+              <span className="bg-orange-500 text-white text-xs uppercase font-bold px-3 py-1 mb-2 w-fit rounded">
                 Find a cook
               </span>
-              <span className="text-white text-2xl mb-4">5 min min read</span>
-              <h2 className="text-white  text-3xl font-bold  mb-2">
-                6 things to keep in <br/>mind when hiring a <br/>cook for home
+              <span className="text-gray-300 text-sm mb-2">5 min read</span>
+              <h2 className="text-white text-2xl font-bold mb-2">
+                6 things to keep in mind when hiring a cook for home
               </h2>
             </div>
           </div>
-          <div className="relative bg-black rounded-lg overflow-hidden shadow-lg">
+          {/* Blog Card 2 */}
+          <div className="relative bg-black rounded-lg overflow-hidden shadow-lg h-96">
             <img
-              src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FBlog_ZO_02_c103cf5073.webp&w=1920&q=75"
-              alt="Blog 1"
-              className="w-full h-full object-cover opacity-70"
+              src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80"
+              alt="Healthy recipes"
+              className="w-full h-full object-cover opacity-60"
             />
-            <div className="absolute inset-0 flex flex-col mt-36  p-6">
-              <span className="bg-orange-500 text-white text-xs uppercase font-bold px-3 py-1 mb-2">
-                Find a cook
+            <div className="absolute inset-0 flex flex-col justify-end p-6">
+              <span className="bg-orange-500 text-white text-xs uppercase font-bold px-3 py-1 mb-2 w-fit rounded">
+                Culinary Secrets
               </span>
-              <span className="text-white text-2xl mb-4">5 min min read</span>
-              <h2 className="text-white  text-3xl font-bold  mb-2">
-                6 things to keep in <br/>mind when hiring a <br/>cook for home
+              <span className="text-gray-300 text-sm mb-2">4 min read</span>
+              <h2 className="text-white text-2xl font-bold mb-2">
+                How our verified chefs curate balanced & hygienic meals
               </h2>
             </div>
           </div>

@@ -3,11 +3,10 @@ import Slider from "react-slick";
 
 const GalleryAutoSlideZoom = () => {
   const images = [
-    "https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FItalian_168d980a5a.webp&w=1920&q=75",
-    "https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FMexican_9e7092cb2b.webp&w=1920&q=75",
-    "https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2Ftop_view_delicious_noodles_concept_9283eeb6c4.webp&w=1920&q=75",
-    "https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FMexican_9e7092cb2b.webp&w=1920&q=75",
-  
+    "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80",
   ];
 
   const cuisines = ["Indian", "Chinese", "Mexican", "Italian"];

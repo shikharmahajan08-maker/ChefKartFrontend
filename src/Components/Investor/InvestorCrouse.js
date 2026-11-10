@@ -7,19 +7,19 @@ const InvestorsCarousel = () => {
       name: 'Deepinder Goyal',
       title: 'Founder & CEO, Zomato',
       description: 'Deepinder Goyal is the founder and CEO of Zomato, one of the largest food tech companies in India. As an investor of Chefkart, Goyal is backing a promising idea to offer authentic and affordable meals prepared in the comfort of one\'s home. His investment is a testament to the potential of Chefkart and its innovative approach to at-home cooking services.',
-      image: 'https://example.com/deepinder-goyal.jpg'
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80'
     },
     {
-      name: 'Investor 2',
-      title: 'Title 2',
-      description: 'Description 2',
-      image: 'https://example.com/investor2.jpg'
+      name: 'Praveen Jadhav',
+      title: 'Founder & CEO, Raise Financial',
+      description: 'Praveen Jadhav is a seasoned entrepreneur and angel investor backing Chefkart in building organized and reliable at-home culinary services at scale.',
+      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80'
     },
     {
-      name: 'Investor 3',
-      title: 'Title 3',
-      description: 'Description 3',
-      image: 'https://example.com/investor3.jpg'
+      name: 'Kunal Shah',
+      title: 'Founder, CRED',
+      description: 'Prominent angel investor supporting transformative consumer platforms simplifying daily services and trust in household management.',
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80'
     }
   ];
 

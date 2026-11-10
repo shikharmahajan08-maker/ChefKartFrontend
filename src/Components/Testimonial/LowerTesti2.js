@@ -5,13 +5,12 @@ const Heart2 = () => {
     <div className="flex justify-center items-center">
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
-          {/* Video Section */}
-          <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0 order-last lg:order-first">
-            <video
-              className="object-cover object-center w-full h-full"
-              controls
-              width="700px"
-              src="https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/cook_vid_low_quality_8_mb_1249700be8.mp4"
+          {/* Image Section */}
+          <div className="lg:w-1/2 sm:w-1/3 w-full rounded-2xl overflow-hidden shadow-lg mt-6 sm:mt-0 order-last lg:order-first">
+            <img
+              className="object-cover object-center w-full h-[360px]"
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+              alt="अजनहर बीबी"
             />
           </div>
 

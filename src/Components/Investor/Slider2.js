@@ -17,7 +17,7 @@ const Carousel2 = () => {
       <div
         className="w-full h-full flex items-center text-white bg-cover bg-center transition-all duration-500"
         style={{
-          backgroundImage: 'url("https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FInvestor_Hero_banner_1_f1154a025e.webp&w=1920&q=75")'
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1920&q=80")'
         }}
         
       >

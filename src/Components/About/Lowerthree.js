@@ -10,7 +10,7 @@ const Lower3 = () => {
             <img
               className="object-cover object-center rounded w-full h-auto"
               alt="hero"
-              src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FAbout_us_Banner_02_413026c0c6.webp&w=1920&q=75"
+              src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1200&q=80"
             />
           </div>
 

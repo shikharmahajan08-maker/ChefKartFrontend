@@ -8,7 +8,7 @@ const Carousel2 = () => {
       <div
         className="w-full h-full flex items-center text-white  bg-cover bg-center transition-all duration-500"
         style={{
-          backgroundImage: 'url("https://awgprivatechefs.com/wp-content/uploads/2021/05/nsplsh_b86635b484d2489d8e1d23806a8409de-mv2.jpg")'
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1920&q=80")'
         }}
         
       >

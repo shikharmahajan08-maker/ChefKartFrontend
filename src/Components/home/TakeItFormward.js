@@ -1,21 +1,31 @@
 import React from "react";
+import { FaApple, FaGooglePlay } from "react-icons/fa";
 
 const TakeItForward = () => {
   return (
     <section className="bg-white py-16">
       <div className="container mx-auto flex flex-col lg:flex-row items-center gap-10 px-5">
-        {/* Video Section */}
+        {/* Phone Mockup Section */}
         <div className="w-full lg:w-1/2 flex justify-center">
-          <video
-            src="https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/mobile_video_be902dfffb.mp4?updated_at=2024-01-16T05:07:06.659Z" // Replace this with the actual video link
-            controls
-            className="h-96 w-52 rounded-lg shadow-md"
-          ></video>
+          <div className="relative border-gray-900 bg-gray-900 border-[10px] rounded-[2.5rem] h-[440px] w-[240px] shadow-2xl overflow-hidden flex flex-col">
+            <div className="w-24 h-3 bg-gray-900 top-0 rounded-b-xl self-center z-20"></div>
+            <div className="relative flex-1 bg-gradient-to-br from-orange-500 to-amber-500 p-5 flex flex-col justify-between text-white">
+              <div>
+                <span className="text-[11px] uppercase tracking-wider font-semibold opacity-90">ChefKart App</span>
+                <h3 className="text-xl font-black mt-2">Cooks on Demand</h3>
+                <p className="text-xs opacity-90 mt-2">Book trained & background verified cooks near you in minutes.</p>
+              </div>
+              <div className="bg-white/20 backdrop-blur-md rounded-xl p-3 text-center">
+                <span className="text-xs font-bold">⭐ 4.8 Rating</span>
+                <p className="text-[10px] opacity-90 mt-1">10,000+ Happy Households</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Content Section */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
             Let's take it forward
           </h2>
           <p className="text-gray-600 text-lg mb-6">
@@ -26,27 +36,25 @@ const TakeItForward = () => {
             {/* App Store Button */}
             <a
               href="#app-store"
-              className="bg-black text-white py-3 px-6 rounded-lg flex items-center shadow-md hover:bg-gray-800"
+              className="bg-black text-white py-3 px-5 rounded-xl flex items-center shadow-md hover:bg-gray-800 transition-colors"
             >
-              <img
-                src="https://th.bing.com/th/id/OIP.todzFiCdppVXoPnT0HgwdAHaEK?rs=1&pid=ImgDetMain" // Replace with the actual App Store logo
-                alt="App Store"
-                className="w-6 h-6 mr-2"
-              />
-              App Store
+              <FaApple className="text-2xl mr-2" />
+              <div className="text-left leading-tight">
+                <div className="text-[9px] uppercase tracking-wider text-gray-300">Download on the</div>
+                <div className="text-xs font-semibold">App Store</div>
+              </div>
             </a>
 
             {/* Google Play Button */}
             <a
               href="#google-play"
-              className="bg-black text-white py-3 px-6 rounded-lg flex items-center shadow-md hover:bg-gray-800"
+              className="bg-black text-white py-3 px-5 rounded-xl flex items-center shadow-md hover:bg-gray-800 transition-colors"
             >
-              <img
-                src="https://th.bing.com/th/id/OIP.Gu1NStDpNVmWisgSKKBzewHaEK?rs=1&pid=ImgDetMain" // Replace with the actual Google Play logo
-                alt="Google Play"
-                className="w-6 h-6 mr-2"
-              />
-              Google Play
+              <FaGooglePlay className="text-xl mr-2" />
+              <div className="text-left leading-tight">
+                <div className="text-[9px] uppercase tracking-wider text-gray-300">GET IT ON</div>
+                <div className="text-xs font-semibold">Google Play</div>
+              </div>
             </a>
           </div>
         </div>

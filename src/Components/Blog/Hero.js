@@ -21,16 +21,13 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Right Video */}
+        {/* Right Visual */}
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <video
-            className="object-cover object-center rounded"
-            src="https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/website_cook_loop_4e9912d5f5.mp4"
-            controls
-            autoPlay
-            loop
-            muted
-          ></video>
+          <img
+            className="object-cover object-center rounded-2xl shadow-xl w-full h-[400px]"
+            src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1200&q=80"
+            alt="Chef preparing meal"
+          />
         </div>
       </div>
     </section>

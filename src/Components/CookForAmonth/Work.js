@@ -1,5 +1,7 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaMobileAlt, FaUtensils, FaCreditCard } from "react-icons/fa";
+import { GiChefToque } from "react-icons/gi";
+
 const Work = () => {
   return (
     <div>
@@ -12,12 +14,13 @@ const Work = () => {
             {/* Step 1 */}
             <div className="p-4 lg:w-1/4 md:w-1/2 relative">
               <div className="h-full flex flex-col items-center text-center relative">
-                <img
-                  alt="Register"
-                  className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4"
-                  src="https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/Register_on_app_4372ed1276.svg"
-                />
-                <FaArrowRight className="absolute top-1/2  left-72 transform -translate-y-1/2 text-orange-500 w-8 h-8" />
+                <div className="flex-shrink-0 rounded-2xl w-full h-72 bg-gradient-to-br from-orange-50 to-amber-50 border border-orange-100 flex flex-col items-center justify-center mb-4 shadow-sm hover:shadow-md transition-all">
+                  <div className="w-24 h-24 rounded-full bg-orange-500/10 flex items-center justify-center mb-3">
+                    <FaMobileAlt className="w-12 h-12 text-orange-500" />
+                  </div>
+                  <span className="text-xs uppercase font-bold tracking-wider px-3 py-1 bg-white rounded-full text-orange-600 shadow-sm border border-orange-100">Step 1</span>
+                </div>
+                <FaArrowRight className="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2 text-orange-500 w-8 h-8 z-10" />
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
                     Register on app
@@ -32,12 +35,13 @@ const Work = () => {
             {/* Step 2 */}
             <div className="p-4 lg:w-1/4 md:w-1/2 relative">
               <div className="h-full flex flex-col items-center text-center relative">
-                <img
-                  alt="Select Service"
-                  className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4"
-                  src="https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/select_your_service_7ba59dddd5.svg"
-                />
-                <FaArrowRight className="absolute top-1/2 left-72 transform -translate-y-1/2 text-orange-500 w-8 h-8" />
+                <div className="flex-shrink-0 rounded-2xl w-full h-72 bg-gradient-to-br from-orange-50 to-amber-50 border border-orange-100 flex flex-col items-center justify-center mb-4 shadow-sm hover:shadow-md transition-all">
+                  <div className="w-24 h-24 rounded-full bg-orange-500/10 flex items-center justify-center mb-3">
+                    <FaUtensils className="w-12 h-12 text-orange-500" />
+                  </div>
+                  <span className="text-xs uppercase font-bold tracking-wider px-3 py-1 bg-white rounded-full text-orange-600 shadow-sm border border-orange-100">Step 2</span>
+                </div>
+                <FaArrowRight className="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2 text-orange-500 w-8 h-8 z-10" />
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
                     Select Chefit - Cook for One Meal
@@ -52,12 +56,13 @@ const Work = () => {
             {/* Step 3 */}
             <div className="p-4 lg:w-1/4 md:w-1/2 relative">
               <div className="h-full flex flex-col items-center text-center relative">
-                <img
-                  alt="Payment"
-                  className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4"
-                  src="https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/make_payment_50309d2915.svg"
-                />
-                <FaArrowRight className="absolute top-1/2 left-64   ml-11 transform -translate-y-1/2 text-orange-500 w-8 h-8" />
+                <div className="flex-shrink-0 rounded-2xl w-full h-72 bg-gradient-to-br from-orange-50 to-amber-50 border border-orange-100 flex flex-col items-center justify-center mb-4 shadow-sm hover:shadow-md transition-all">
+                  <div className="w-24 h-24 rounded-full bg-orange-500/10 flex items-center justify-center mb-3">
+                    <FaCreditCard className="w-12 h-12 text-orange-500" />
+                  </div>
+                  <span className="text-xs uppercase font-bold tracking-wider px-3 py-1 bg-white rounded-full text-orange-600 shadow-sm border border-orange-100">Step 3</span>
+                </div>
+                <FaArrowRight className="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2 text-orange-500 w-8 h-8 z-10" />
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
                     Fill requirements & pay
@@ -72,12 +77,12 @@ const Work = () => {
             {/* Step 4 */}
             <div className="p-4 lg:w-1/4 md:w-1/2 relative">
               <div className="h-full flex flex-col items-center text-center relative">
-                <img
-                  alt="Get a Cook"
-                  className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4"
-                  src="https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/Get_a_cook_b0e201f46a.svg"
-                />
-                <FaArrowRight className="absolute top-1/2 transform -translate-y-1/2 text-orange-500 w-8 h-8" />
+                <div className="flex-shrink-0 rounded-2xl w-full h-72 bg-gradient-to-br from-orange-50 to-amber-50 border border-orange-100 flex flex-col items-center justify-center mb-4 shadow-sm hover:shadow-md transition-all">
+                  <div className="w-24 h-24 rounded-full bg-orange-500/10 flex items-center justify-center mb-3">
+                    <GiChefToque className="w-12 h-12 text-orange-500" />
+                  </div>
+                  <span className="text-xs uppercase font-bold tracking-wider px-3 py-1 bg-white rounded-full text-orange-600 shadow-sm border border-orange-100">Step 4</span>
+                </div>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
                     Get a cook

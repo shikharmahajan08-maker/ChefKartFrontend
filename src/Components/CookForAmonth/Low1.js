@@ -8,9 +8,9 @@ const Lower1 = () => {
           <div className="flex flex-wrap lg:flex-nowrap">
             {/* Image Section */}
             <img
-              alt="ecommerce"
+              alt="Expert Cooks"
               className="w-full lg:w-1/2 h-64 lg:h-auto object-cover object-center rounded-md"
-              src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FBest_cooks_to_serve_you_3876478f4c.webp&w=1920&q=75"
+              src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1200&q=80"
             />
 
             {/* Text Section */}

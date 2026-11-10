@@ -4,11 +4,11 @@ const ContactLower = () => {
     const content = [
       {
         text2: "Our mission is to provide at-home cooking services in a way that has never been experienced before by empowering millions of cooks across India.",
-        imgSrc: "https://thechefkart.com/_next/image?url=%2FM_F_Home%20chef_refine%201.png&w=1920&q=75",
+        imgSrc: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1200&q=80",
       },
       {
         text1: "ChefKart is a platform that connects home chefs and households seamlessly by building an ecosystem. Our professionals are handpicked to serve you hygienic and wholesome meals catered to your taste!",
-        imgSrc: "https://thechefkart.com/_next/image?url=%2FImage.png&w=1920&q=75",
+        imgSrc: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80",
         extraText1: "Read about our story.",
       },
     ];

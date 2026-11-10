@@ -1,44 +1,38 @@
 import React from "react";
+import { FaQuoteLeft } from "react-icons/fa";
 
 const Testimonial1 = () => {
   return (
-    <div className="bg-gray-100 py-10 px-4">
-      <h2 className=" font-bold text-center text-4xl mb-8">
+    <div className="bg-gray-100 py-16 px-4">
+      <h2 className="font-bold text-center text-4xl mb-12 text-gray-900">
         Don’t Take Our Word For It!
       </h2>
-      <div className="flex flex-col md:flex-row items-center max-w-8xl  justify-center h-auto mx-auto bg-white shadow-md rounded-lg p-6">
+      <div className="flex flex-col md:flex-row items-center max-w-5xl justify-between mx-auto bg-white shadow-lg rounded-2xl overflow-hidden p-8 gap-8">
         {/* Text Section */}
-        <div className="md:w-1/2 mb-6 md:mb-0 md:mr-6 text-center  md:text-left">
-          <p className="text-5xl  text-gray-800 mb-4">
+        <div className="md:w-1/2 text-center md:text-left">
+          <FaQuoteLeft className="text-orange-400 text-4xl mb-4 mx-auto md:mx-0 opacity-80" />
+          <p className="text-2xl md:text-3xl text-gray-800 font-semibold leading-relaxed mb-6">
             “Everyone was amazed by the kind of party we threw, and the food was
             the talk of the party!”
           </p>
-          <p className="text-md text-red-500 font-bold">Kavita</p>
+          <div className="flex items-center justify-center md:justify-start gap-3">
+            <div className="w-10 h-10 rounded-full bg-orange-500 text-white flex items-center justify-center font-bold">
+              K
+            </div>
+            <div>
+              <p className="text-lg text-gray-900 font-bold">Kavita Sharma</p>
+              <p className="text-sm text-gray-500">Gurgaon, Haryana</p>
+            </div>
+          </div>
         </div>
 
-        {/* Video Section */}
+        {/* Image Section */}
         <div className="md:w-1/2">
-          <div className="relative">
-            <video
-              src="https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/27389f2b_393b_42a7_bab8_7f0dc6ce3736_ca22a40ab0.mov"
-              controls
-              className="rounded-lg w-full"
-            />
-            <button className="absolute inset-0 flex items-center justify-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-12 h-12 text-white bg-red-500 rounded-full p-2"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.293-8.707a1 1 0 010 1.414l-4 4A1 1 0 018 14V6a1 1 0 011.707-.707l4 4z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </button>
-          </div>
+          <img
+            src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+            alt="Customer event dinner"
+            className="rounded-xl w-full h-80 object-cover shadow-md"
+          />
         </div>
       </div>
     </div>

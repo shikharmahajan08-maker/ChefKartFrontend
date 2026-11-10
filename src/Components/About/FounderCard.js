@@ -14,9 +14,9 @@ const GallerySection = () => {
           <div className="p-4 md:w-1/3 sm:mb-0 mb-6 flex flex-col items-center">
             <div className="rounded-lg h-80 w-80 overflow-hidden mb-4"> {/* Increased size */}
               <img
-                alt="content"
-                className="object-cover object-center h-80 w-80 rounded-full" // Increased size
-                src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FVaibhav_01_1db5d1c3eb.webp&w=1920&q=75"
+                alt="Vaibhav Gupta"
+                className="object-cover object-center h-80 w-80 rounded-full shadow-md"
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">Vaibhav Gupta</h2>
@@ -35,9 +35,9 @@ const GallerySection = () => {
           <div className="p-4 md:w-1/3 sm:mb-0 mb-6 flex flex-col items-center">
             <div className="rounded-lg h-80 w-80 overflow-hidden mb-4"> {/* Increased size */}
               <img
-                alt="content"
-                className="object-cover object-center h-80 w-80 rounded-full" // Increased size
-                src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FAman_01_a6144820a0.webp&w=1920&q=75"
+                alt="Aman Gupta"
+                className="object-cover object-center h-80 w-80 rounded-full shadow-md"
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80"
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">Aman Gupta</h2>
@@ -56,9 +56,9 @@ const GallerySection = () => {
           <div className="p-4 md:w-1/3 sm:mb-0 mb-6 flex flex-col items-center">
             <div className="rounded-lg h-80 w-80 overflow-hidden mb-4"> {/* Increased size */}
               <img
-                alt="content"
-                className="object-cover object-center h-80 w-80 rounded-full" // Increased size
-                src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FAmeya_01_31f6b17ce0.webp&w=1920&q=75"
+                alt="Ameya Kannamwar"
+                className="object-cover object-center h-80 w-80 rounded-full shadow-md"
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">Ameya Kannamwar</h2>

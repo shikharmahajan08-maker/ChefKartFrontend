@@ -7,9 +7,9 @@ const Lower3 = () => {
         <div className="container px-4 mx-auto max-w-7xl">
           <div className="flex flex-wrap lg:flex-nowrap">
             <img
-              alt="ecommerce"
-              className="lg:w-1/2 w-full  h-64 lg:h-auto object-cover object-center rounded"
-              src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FKoustov1_d393227e33.png&w=1920&q=75"
+              alt="Professional Chef"
+              className="lg:w-1/2 w-full h-64 lg:h-auto object-cover object-center rounded"
+              src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1200&q=80"
             />
             <div className="lg:w-1/2 w-full  lg:mt-0 lg:pl-10  lg:py-56">
               <p className="text-red-500 text-center lg:text-left font-bold">Running on a tight schedule</p>

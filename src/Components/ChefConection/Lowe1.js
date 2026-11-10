@@ -8,9 +8,9 @@ const Lowe1 = () => {
           <div className="lg:flex lg:flex-row flex-col justify-between items-center">
             {/* Image Section */}
             <img 
-              alt="ecommerce" 
+              alt="Male and Female Cooks" 
               className="lg:w-1/2 w-full lg:h-auto h-96 object-cover object-center rounded" 
-              src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FMale_female_Cooks_ceb391c475.webp&w=1920&q=75" 
+              src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1200&q=80" 
             />
             {/* Text Section */}
             <div className="lg:w-1/2 w-full mt-12 lg:pl-10 lg:py-6">

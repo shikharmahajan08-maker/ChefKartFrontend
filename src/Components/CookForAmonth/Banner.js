@@ -2,7 +2,7 @@ import React from "react";
 
 const FoodBanner = () => {
   return (
-    <div className="relative h-[350px]  bg-center" style={{ backgroundImage: "url('https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/Rectangle_60_bfb1e0017f.png')" }}>
+    <div className="relative h-[350px] bg-cover bg-center" style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1920&q=80')" }}>
       {/* Overlay */}
       <div className="absolute inset-0 "></div>
 

@@ -18,13 +18,13 @@ const Heart1 = () => {
           
           </div>
 
-          {/* Video Section */}
-          <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-            <video
-              className="object-cover object-center w-full h-full"
-              controls
-              width="700px"
-              src="https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/Monthly_Subscription_Testiomonial_454d9c714c.mp4"/>
+          {/* Image Section */}
+          <div className="lg:w-1/2 sm:w-1/3 w-full rounded-2xl overflow-hidden shadow-lg mt-6 sm:mt-0">
+            <img
+              className="object-cover object-center w-full h-[360px]"
+              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+              alt="Pramiti Upadhyay"
+            />
           </div>
         </div>
       </section>

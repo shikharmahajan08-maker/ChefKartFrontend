@@ -7,20 +7,14 @@ const GalleryWithState = () => {
   const [zoomedIndex, setZoomedIndex] = useState(0);
 
   const images = [
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_25_6ed7e4df8e.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_24_9f0f37936a.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_22_6032e4cfba.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_10_5ddf0b07ef.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_09_40fd87e1bd.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_21_c77b00e93e.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_20_fb2b9b8032.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_18_db483bd088.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_17_c2beda679c.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_16_1c53d90992.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_15_0e982c7e24.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_14_2f200a48bb.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_13_1635e91993.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_12_bf6aa54e87.png",
+    "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80",
   ];
 
   const settings = {

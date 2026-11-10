@@ -6,7 +6,7 @@ const Carousel2 = () => {
       title: "Get a cook for One-time Within 60 seconds",
       description: "Forget ordering online! Get fresh food cooked in your kitchen.",
       bgImage:
-        "https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FChefit_Hero_banner_f573fdf12c.webp&w=1920&q=75",
+        "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1920&q=80",
     },
   ];
 
@@ -16,7 +16,7 @@ const Carousel2 = () => {
       <div
         className="w-full h-full flex flex-col md:flex-row items-center text-white bg-cover bg-center transition-all duration-500"
         style={{
-          backgroundImage: `url(${slides[0].bgImage})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(${slides[0].bgImage})`,
         }}
       >
         {/* Text Section */}
